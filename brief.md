@@ -20,3 +20,17 @@ Create a class Person with the attributes name, surname and age. Then, create a 
 To the main()of the main class, calls this method with different types of parameters (e.g.: an object Person, a String and a primitive numerical value).
 
 With this exercise you will verify that generic methods can accept any combination of type and in any order.
+
+# Level 2
+
+This level focuses on refining the use of generics, learning to combine generic parameters with specific types, and to use varanges safely with generics.
+
+Exercise 1 — Partial generic
+Modify the previous exercise to make one of the arguments of the generic method not generic, but of a fixed rate, such as String. The other two arguments must remain generic.
+
+Exercise 2 — Generic Varargs
+Adapt the above exercise to make the method accept a variable number of generic arguments (varargs). The name of the method can be printAll().
+
+Important
+
+Remember that the use of varangs with generics can generate warnings in compilation (unchecked warnings). Find out how this affects type security.
