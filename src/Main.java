@@ -8,14 +8,13 @@ public class Main {
         Person paco = new Person("Paco", "Perez", 22);
         Person rodro = new Person("Rodro", "Rodriguez", 32);
 
-        GenericMethods gm = new GenericMethods();
-
         try{
-            gm.printElements(paco, "String de prueba", 14);
-            gm.printElements(paco, rodro, new Person("Maria", "Garcia", 25));
+            GenericMethods.printElements(paco, "String de prueba", 14);
+            GenericMethods.printElements(paco, rodro, new Person("Maria", "Garcia", 25));
+            GenericMethods.printElementsWithsString(paco,rodro," : Estos son personas");
+            GenericMethods.printall(paco,rodro,paco,rodro,"Yeeee",paco);
         } catch (Exception e) {
             System.err.println(e.getMessage());
         }
-
     }
 }
