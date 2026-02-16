@@ -1,4 +1,4 @@
-# Level 2: AssertJ
+# Java Generics
 
 At this level you will introduce yourself to the fundamental concepts of generics. You will learn how to create classes and methods that work with any type of data, and you will see how Java manages flexible but secure typing.
 
